@@ -28,5 +28,6 @@ func main() {
 	tesla := &patterns.ElectricCar{}
 	adapter := &patterns.ElectricCarAdapter{ECar: tesla}
 	fmt.Println("\ntest adapter")
+	fmt.Println("want to test")
 	patterns.Travel(adapter)
 }
