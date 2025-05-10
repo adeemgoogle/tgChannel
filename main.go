@@ -14,7 +14,8 @@ func main() {
 	sportsCar := &patterns.SportsExhaustDecorator{Car: car}
 
 	// Тестируем машину с декораторами
-	fmt.Println("Тестируем базовую машину:")
+	fmt.Println("Test decorator")
+	fmt.Println("\nТестируем базовую машину:")
 	patterns.TestDrive(car)
 
 	fmt.Println("\nТестируем машину с турбонаддувом:")
@@ -26,6 +27,6 @@ func main() {
 	// adapter
 	tesla := &patterns.ElectricCar{}
 	adapter := &patterns.ElectricCarAdapter{ECar: tesla}
-
+	fmt.Println("\ntest adapter")
 	patterns.Travel(adapter)
 }
