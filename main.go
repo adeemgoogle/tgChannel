@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("\nТестируем машину с турбонаддувом:")
 	patterns.TestDrive(turboCar)
 
-	fmt.Println("\nТестируем машину с турбонаддувом и спортивным выхлопом ehheheh:")
+	fmt.Println("\nТестируем машину с турбонаддувом и спортивным выхлопом jjjjjj:")
 	patterns.TestDrive(sportsCar)
 
 	// adapter
